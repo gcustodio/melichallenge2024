@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "543a1c21-634d-44e2-90a2-c82b0ef27d54",
+		"name": "jsonplaceholderAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "12984852",
+		"_collection_link": "https://www.postman.com/blue-crater-938120/workspace/melichallenge2024/collection/12984852-543a1c21-634d-44e2-90a2-c82b0ef27d54?action=share&source=collection_link&creator=12984852"
+	},
+	"item": [
+		{
+			"name": "posts",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://jsonplaceholder.typicode.com/posts/"
+			},
+			"response": []
+		},
+		{
+			"name": "post",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://jsonplaceholder.typicode.com/posts/2"
+			},
+			"response": []
+		},
+		{
+			"name": "postComents",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://jsonplaceholder.typicode.com/posts/1/comments"
+			},
+			"response": []
+		},
+		{
+			"name": "comments",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://jsonplaceholder.typicode.com/comments"
+			},
+			"response": []
+		},
+		{
+			"name": "users",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://jsonplaceholder.typicode.com/users"
+			},
+			"response": []
+		},
+		{
+			"name": "todos",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": {}
+				},
+				"method": "GET",
+				"header": [],
+				"url": "https://jsonplaceholder.typicode.com/todos"
+			},
+			"response": []
+		}
+	]
+}
